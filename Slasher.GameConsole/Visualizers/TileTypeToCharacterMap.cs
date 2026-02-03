@@ -1,0 +1,15 @@
+﻿using Slasher.GameLibrary;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Slasher.GameConsole.Visualizers;
+
+public static class TileTypeToCharacterMap
+{
+    public static Dictionary<TileType, char> Dictionary = new Dictionary<TileType, char>() {
+        { TileType.Empty, ' '},
+        { TileType.Grass, '.'},
+        { TileType.Water, '-'},
+        { TileType.Rock, '*'}};
+}

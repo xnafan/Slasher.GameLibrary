@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Slasher.GameConsole/Slasher.GameConsole.csproj" />
+  <Project Path="Slasher.GameLibrary/Slasher.GameLibrary.csproj" />
+</Solution>
